@@ -1,3 +1,7 @@
-**Code written by Tulio Torezan Silingardi Del Claro**
+**Code written by Marina Haukness**
 
-Implementation of the Ford-Fulkerson algorithm for the maximum flow problem (based on http://www.geeksforgeeks.org/ford-fulkerson-algorithm-for-maximum-flow-problem/) 
+This program aims to find the most influential genes in a network based on how much they disrupt the flow of the network when they are removed.
+
+Usage for the program is:
+    python3 disruption.py pathway.sif upstream.input downstream.input > output.txt
+
